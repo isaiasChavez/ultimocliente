@@ -1,0 +1,13 @@
+
+<table>
+    <tr *ngFor=" let instituto of institutos">
+        <td>
+            {{instituto.nombreInstituto}}
+        </td>
+    </tr>
+</table>
+
+
+<button (click)="traerInstitutos()">
+    Traer institutos
+</button>

@@ -1,0 +1,11 @@
+<p>profesor works!</p>
+<table>
+    <tr *ngFor="let profesor of profesores">
+        <td>
+            {{profesor.nombreProfesor}}
+        </td>
+      </tr>
+</table>
+<button (click)="traerProfesor()">
+    Traer profesor
+</button>
